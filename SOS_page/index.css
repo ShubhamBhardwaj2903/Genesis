@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+a
+{
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+a:hover
+{
+  color: #8BD8BD;
+}
+
+.simply-enter-your {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 540px;
+  height: 266px;
+  flex-shrink: 0;
+}
+.simply-enter-your-location-and-wrapper {
+  position: absolute;
+  top: 385px;
+  left: 33px;
+  background-color: var(--color-gray-100);
+  width: 578px;
+  height: 264px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.locate-yourself-and {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 373px;
+  height: 187px;
+  flex-shrink: 0;
+}
+.locate-yourself-and-gain-assis-wrapper {
+  position: absolute;
+  top: 160px;
+  left: 62px;
+  background-color: var(--color-gray-100);
+  width: 445px;
+  height: 110px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  /* padding: var(--padding-sm) var(--padding-xl); */
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-black);
+}
+.map-of-birmingham-county {
+  position: absolute;
+  top: calc(50% - 248.5px);
+  left: calc(50% - 9px);
+  border-radius: 25px;
+  width: 729px;
+  height: 684px;
+  object-fit: cover;
+}
+.send-sos {
+  position: relative;
+  display: inline-block;
+  width: 189px;
+  height: 69px;
+  flex-shrink: 0;
+}
+.send-sos-wrapper {
+  position: absolute;
+  top: 677px;
+  left: 345px;
+  border-radius: var(--br-md);
+  background-color: var(--color-tomato);
+  border: 5px solid red;
+  box-sizing: border-box;
+  width: 285px;
+  height: 89px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-lg) var(--padding-2xs);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+}
+.contact-ngo {
+  position: relative;
+  display: inline-block;
+  width: 236px;
+  height: 68px;
+  flex-shrink: 0;
+}
+.contact-ngo-wrapper {
+  position: absolute;
+  top: 677px;
+  left: 45px;
+  border-radius: var(--br-md);
+  border: 3px solid var(--color-mediumaquamarine);
+  box-sizing: border-box;
+  width: 285px;
+  height: 89px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  /* padding: 0 var(--padding-lg) var(--padding-2xs); */
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslateblue);
+}
+
+.contact-ngo-wrapper:hover {
+  background-color: var(--color-mediumaquamarine);
+  color: var(--color-white);
+}
+
+.send-sos-wrapper:hover {
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-tomato);
+  color: var(--color-tomato);
+}
+
+.sos-child {
+  position: absolute;
+  top: 47px;
+  left: 0;
+  background-color: var(--color-darkslateblue);
+  width: 100%;
+  height: 56px;
+}
+.precautions {
+  position: relative;
+}
+.precautions-parent,
+.volunteer-parent {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background-color: var(--color-gray-200);
+  width: 453px;
+  height: 56px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-md);
+  font-size: var(--font-size-sm);
+}
+.volunteer-parent {
+  left: 967px;
+  padding: var(--padding-xs);
+}
+.image-2-icon {
+  position: relative;
+  width: 92px;
+  height: 44.25px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.aqua-relief,
+.image-2-parent {
+  display: flex;
+  align-items: center;
+}
+.aqua-relief {
+  position: relative;
+  width: 258px;
+  height: 55px;
+  flex-shrink: 0;
+}
+.image-2-parent {
+  position: absolute;
+  /* top: 30px; */
+  left: 499px;
+  background-color: var(--color-gray-200);
+  width: 420px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.rectangle-icon {
+  position: absolute;
+  top: 120px;
+  left: 460px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.sos {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 871px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+  font-family: var(--font-inika);
+}
