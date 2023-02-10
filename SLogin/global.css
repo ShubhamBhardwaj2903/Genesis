@@ -1,0 +1,26 @@
+:root {
+  /* fonts */
+  --font-inika: Inika;
+
+  /* font sizes */
+  --font-size-base: 18px;
+  --font-size-lg: 20px;
+  --font-size-xl: 30px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: rgba(255, 255, 255, 0);
+  --color-black: #000;
+  --color-darkslateblue: #243665;
+  --color-dimgray: #6b6868;
+
+  /* Gaps */
+  --gap-md: 65px;
+
+  /* Paddings */
+  --padding-md: 41px;
+
+  /* border radiuses */
+  --br-sm: 10px;
+  --br-md: 20px;
+}

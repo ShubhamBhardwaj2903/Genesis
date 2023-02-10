@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="/SLogin/global.css" />
+    <link rel="stylesheet" href="/SLogin/index.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap"/>
+  </head>
+  <body>
+    <div class="sign-up">
+      
+      <div class="image-2-parent">
+        <img class="image-2-icon" alt="" src="public/image-2@2x.png" />
+        <div class="aqua-relief">
+          <a href="/Home Page/index.html" style="text-decoration: none; color: #243665;">
+            Aqua Relief
+          </a>
+        </div>
+      </div>
+      <!-- <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_drmhmvq7.json"  background="transparent"  speed="1"  style="width: 900px; height: 900px; display: inline-block; position: absolute; top: 15%;"  loop autoplay></lottie-player> -->
+      
+      <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_jol43osd.json"  background="transparent"  speed="1"  style="width: 700px; height: 700px; display: inline-block; position: absolute; top: 27%;"  loop  autoplay></lottie-player>
+      <div class="sign-up-child">
+        <form action="" id="sos">
+          <img class="image-2-icon1" alt="" src="public/image-21@2x.png">
+          <div class="name-wrapper" style="display: inline-block;">
+            <input type="text" name="" placeholder="Full name" class="long" id="fullName" style="padding: 0 20px;" required>
+          </div>
+          <div class="contact-no-wrapper" style="display: inline-block;">
+            <input type="number" name="" placeholder="Contact No." class="long" id="contactNo" style="padding: 0 20px;" required>
+          </div>
+          <div class="email-id-wrapper" style="display: inline-block;">
+            <input type="email" name="" placeholder="Email ID" class="long" id="email" style="padding: 0 20px;">
+          </div>
+          <div class="latitude-wrapper" style="display: inline-block;">
+            <input type="number" name="" placeholder="Longitude" style="padding: 0 20px;" id="longitude" required>
+          </div>
+          <div class="latitude-container" style="display: inline-block;">
+            <input type="number" name="" placeholder="Latitude" style="padding: 0 20px;" id="latitude" required>
+          </div>
+          <div class="get-location-parent">
+            <button style="text-decoration: none; color: black; display: flex; ">
+              <div class="get-location" onclick="getLocation()" style="display: flex;">
+                Get Location
+              </div>
+              <img class="vector-icon" alt="" src="public/vector.svg" />
+            </button>
+          </div>
+          <div class="sign-up-wrapper">
+            <input type="submit" id="submit" value="Send SOS" onclick="myFunction()">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      function myFunction()
+      {
+        window.location.href = "/SOS/index.html";
+      }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+  </body>
+</html>
